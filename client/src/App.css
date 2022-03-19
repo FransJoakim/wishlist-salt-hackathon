@@ -1,0 +1,128 @@
+.App {
+  padding: 1.5em;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.my-list-headline {
+  font-size: 4em;
+  margin-bottom: -0.01em;
+}
+
+.relatives-section-headline {
+  font-size: 3em;
+  margin-top: 1.7em;
+  margin-bottom: -0.01em;
+}
+
+.wish-list {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 0.3em;
+  border-radius: 5px;
+}
+
+.list-headline {
+  font-size: 1.5em;
+  margin: -0.1em auto;
+}
+
+.list-name-headline {
+  margin-bottom: -0.1em;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: left;
+  margin-left: 3px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.your-panel {
+  display: flex;
+}
+
+.panel__left {
+  width: 75%;
+  padding-left: 1em;
+  padding-bottom: 2em;
+}
+
+.panel__left__description {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin-top: 0.3em;
+}
+
+.panel__left__description__header {
+  font-size: small;
+  font-weight: 300;
+  margin-bottom: 0.3em;
+}
+
+.panel__right__toggle-btn {
+  width: 10em;
+  height: 2em;
+}
+
+.panel__right__gift-statusTxt {
+  font-size: 0.7em;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.wish-element {
+  padding: 1px;
+  border: 1px solid #777;
+}
+
+.link-list {
+  list-style-position: outside;
+}
+
+.link {
+  font-size: 0.7em;
+  list-style-type: none;
+}
+/* a */
+
+.form {
+  padding: 18px 18px;
+  background-color: #eee;
+  border: 1px solid #777;
+}
